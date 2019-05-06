@@ -1,7 +1,18 @@
 # Write your code here.
 
 def line(array)
-
+  if array.length >= 1
+    narray = []
+    counter = 1
+    array.each do |name|
+      narray.push("#{counter}. #{name}")
+      counter += 1
+    end
+    puts "This line is currently: #{narray.join(" ")}"
+  else
+    puts "The line is currently empty."
+  end
+end
 
 #line and position
 def line(katz_deli)
@@ -13,6 +24,7 @@ def line(katz_deli)
 end
 
 #take_a_number
-
+def take_a_number(line)
 
 #now_serving
+def now_serving(line)
