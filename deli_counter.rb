@@ -25,6 +25,7 @@ end
 
 #take_a_number
 def take_a_number(line)
-
+end
 #now_serving
 def now_serving(line)
+end
