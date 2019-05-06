@@ -13,7 +13,7 @@ def line(array)
     puts "The line is currently empty."
   end
 end
-
+line(katz_deli)
 #line and position
 def line(katz_deli)
   if katz_deli >= 1
